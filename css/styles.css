@@ -175,7 +175,7 @@ p {
   cursor: pointer;
 }
 
-.hero-btn {
+.button.hero-btn {
   border: none;
   margin: 0 auto;
 }
@@ -340,4 +340,13 @@ p {
   border-left: 1px solid var(--accent-color);
   border-right: 1px solid var(--accent-color);
   border-bottom: 1px solid var(--accent-color);
+}
+.card-services-title {
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }

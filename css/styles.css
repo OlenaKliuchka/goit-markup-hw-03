@@ -17,7 +17,6 @@ html {
   --background-section-color: #f4f4fd;
   --background-dark-color: #2e2f42;
   --background-white-color: #ffffff;
-  --card-set-gap: 24px;
 }
 
 body {
@@ -40,6 +39,7 @@ img {
 .link {
   text-decoration: none;
 }
+
 /* Контейнер */
 .container {
   width: 1158px;
@@ -80,10 +80,9 @@ img {
 .main-filters {
   display: flex;
   align-items: center;
-}
-.page-nav {
   margin-right: auto;
 }
+
 .site-nav {
   display: flex;
   gap: 40px;
@@ -167,18 +166,17 @@ img {
   align-items: center;
   letter-spacing: 0.04em;
   cursor: pointer;
+  margin: 0 auto;
 }
 
 .hero-btn {
-  margin: 0 auto;
-
   border: none;
 }
 .button.hero-btn:hover,
 .button.hero-btn:focus {
   background-color: var(--pressed-state-color);
 }
-
+/* Секція 2 */
 .section-title,
 .section-team-title {
   margin-top: 0;
@@ -191,10 +189,12 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-
 .advantages {
   display: flex;
   gap: 24px;
+  /* padding: 120px 0; */
+}
+.section {
   padding: 120px 0;
 }
 .visually-hidden {
@@ -243,7 +243,7 @@ img {
 }
 
 /* Секція 2 */
-.our-works {
+.section-doing {
   padding-bottom: 120px;
 }
 .our-works,
@@ -317,6 +317,7 @@ img {
 .button.filters:focus {
   background-color: var(--pressed-state-color);
   color: var(--background-white-color);
+  border: 1px solid transparent;
 }
 .services {
   display: flex;
@@ -326,9 +327,7 @@ img {
 .services-list {
   width: 360px;
 }
-.services-title {
-  margin-bottom: 8px;
-}
+
 .card-content {
   padding: 32px 16px;
   border-left: 1px solid var(--accent-color);
